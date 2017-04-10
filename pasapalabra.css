@@ -1,0 +1,302 @@
+.circulo {
+    width: 40px;
+    height: 40px;
+    oz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border-color: black;
+    background: #5ca9b8;
+}
+.rodona_petita {
+	    transform-origin: 54% 200px;
+	    position: absolute;
+}
+
+.rodona_petita p {
+    position: absolute;
+    left: 34%;
+    top: -16%;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font: oblique;
+}
+.rosco_r {
+    float: left;
+    position: absolute;
+    top: 10%;
+    left: 27.5%;
+}
+
+.section_ask {
+    position: absolute;
+    top: 8%;
+    left: 57%;
+}
+.fondo {
+    color: #5ca9b8;
+    background: #f0f6ff;
+}
+h1 ,h2,span,body {
+	font-family: sans-serif;
+	font: bold;
+}
+.boton {
+	font-family: sans-serif;
+	font: bold;
+}
+#fin {
+    color: firebrick;
+    font-size: 35px;
+}
+#clockdiv {
+    position: absolute;
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    left: 22.5%;
+    top: 21%;
+}
+#puntuacion {
+    position: absolute;
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    left: 24.5%;
+    top: 114%;
+}
+
+
+
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 33px;
+	background: #5ca9b8;
+	display: inline-block;
+}
+
+#clockdiv div > span {
+    padding: 15px;
+    border-radius: 25px;
+    background: rgba(0, 114, 129, 0.53);
+    display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+.pasapalabra {
+    background-color:#b85c5c;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: sans-serif;
+	font: bold;
+	font-size: 15px;
+}
+.arriesgar {
+    background-color:#5cb860;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: sans-serif;
+	font: bold;
+	font-size: 15px;
+}
+.a {
+  
+  position: absolute;
+  transform: rotateZ(0deg);
+}
+.b {
+  
+  position: absolute;
+  
+  transform: rotateZ(13.8461538deg);
+}
+.b p{
+  transform: rotateZ(-13.8461538deg);}
+.c {
+  
+  position: absolute;
+  transform: rotateZ(27.6923076923deg);
+}
+.c p{
+  transform: rotateZ(-27.6923076923deg);}
+.d {
+  
+   position: absolute;
+   transform: rotateZ(41.5384615deg);
+}
+.d p{
+  transform: rotateZ(-41.5384615deg);}
+.f {
+  
+    position: absolute;
+	transform: rotateZ(55.3846153deg);
+}
+.f p{
+  transform: rotateZ(-55.3846153deg);}
+
+.g{
+  
+	position: absolute;
+	transform: rotateZ(69.2307691deg);
+}
+.g p{
+  transform: rotateZ(-69.2307691deg);}
+.h {
+  
+    position: absolute;
+  	transform: rotateZ(83.0769229deg);
+}
+.h p{
+  transform: rotateZ(-83.0769229deg);}
+.i {
+  
+    position: absolute;
+  	transform: rotateZ(96.9230767deg);
+}
+.i p{
+  transform: rotateZ(-96.9230767deg);}
+.j {
+  
+    position: absolute;
+  	transform: rotateZ(110.7692305deg);
+}
+.j p{
+  transform: rotateZ(-110.7692305deg);}
+.k {
+  
+     position: absolute;
+
+  transform: rotateZ(124.6153843deg);
+}
+.k p{
+  transform: rotateZ(-124.6153843deg);}
+.l {
+  
+     position: absolute;
+
+  transform: rotateZ(138.4615381deg);
+}
+.l p{
+  transform: rotateZ(-138.46153813deg);}
+.m {
+  
+     position: absolute;
+
+  transform: rotateZ(152.3076919deg);
+}
+.m p{
+  transform: rotateZ(-152.3076919deg);}
+.n {
+  
+     position: absolute;
+
+  transform: rotateZ(166.1538457deg);
+}
+.n p{
+  transform: rotateZ(-166.1538457deg);}
+.ñ {
+  
+  position: absolute;
+  transform: rotateZ(179.9999995deg);
+}
+.ñ p{
+  transform: rotateZ(-179.9999995deg);}
+.o {
+  
+  
+ 
+  position: absolute;
+  transform: rotateZ(193.8461533deg);
+}
+.o p{
+  transform: rotateZ(-193.8461533deg);}
+.p {
+  
+     position: absolute;
+	transform: rotateZ(207.6923071deg);
+}
+.p p{
+  transform: rotateZ(-207.6923071deg);}
+.q {
+  
+  position: absolute;
+  transform: rotateZ(221.5384609deg);
+}
+.q p{
+  transform: rotateZ(-221.5384609deg);}
+.r {
+  
+     position: absolute;
+	transform: rotateZ(235.3846147deg);
+}
+.r p{
+  transform: rotateZ(-235.3846147deg);}
+  .s {
+     position: absolute;
+     transform: rotateZ(249.2307685deg);
+}
+.s p{
+  transform: rotateZ(-249.2307685deg);}
+.t {
+  	position: absolute;
+	transform: rotateZ(263.0769223deg);
+}
+.t p{
+  transform: rotateZ(-263.0769223deg);}
+  .u {
+ 
+    position: absolute;
+  	transform: rotateZ(276.9230761deg);
+}
+.u p{
+  transform: rotateZ(-276.9230761deg);}
+.v {
+     position: absolute;
+	transform: rotateZ(290.7692299deg);
+}
+.v p{
+  transform: rotateZ(-290.7692299deg);}
+.w {
+     position: absolute;
+     transform: rotateZ(304.6153837deg);
+}
+.w p{
+  transform: rotateZ(-304.6153837deg);}
+.x {
+  
+    position: absolute;
+	transform: rotateZ(318.4615375deg);
+}
+.x p{
+  transform: rotateZ(-318.4615375deg);}
+  .y {
+     position: absolute;
+     transform: rotateZ(332.3076913deg);
+}
+.y p{
+  transform: rotateZ(-332.3076913deg);}
+.z {
+    position: absolute;
+	transform: rotateZ(346.1538451deg);
+}
+.z p{
+  transform: rotateZ(-346.1538451deg);}
+  

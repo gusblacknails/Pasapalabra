@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Pasapalabra</title>
+	<link rel="stylesheet" type="text/css" href="pasapalabra.css">
+
+	<script type="text/javascript"> 
+		/*función para inutilizar el enter*/
+		function stopRKey(evt) { 
+  		var evt = (evt) ? evt : ((event) ? event : null); 
+  		var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null); 
+  		if ((evt.keyCode == 13) && (node.type=="text"))  {return false;} 
+		} 
+
+		document.onkeypress = stopRKey; 
+
+	</script>
+</head>
+<body class="fondo" onload="begin_game()">
+<h1>Pasapalabra</h1>
+
+<div class= "section_ask">
+<h2 class="pregunta">Pregunta:</h2>
+<p id="question"></p>
+
+<form>
+  <span>Respuesta:</span></br>
+  <input id="answer" type="text" name="respuesta" value=""><br>
+ 
+  <input class="arriesgar" type="button" onclick="arriesgar()" value="Arriesgar" >
+  <input class="pasapalabra" type="button" onclick="pasapalabra()" value="Pasapalabra" >
+</form>
+<p id="fin"></p>
+</div>
+<div class="rosco_r">
+<div id="a" class="circulo a rodona_petita"> 
+<p >A</p>
+</div>
+<div id="b" class="circulo b rodona_petita" > 
+<p >B</p>
+</div>
+<div id="c" class="circulo c rodona_petita"> 
+<p >C</p>
+</div>
+<div id="d" class="circulo d rodona_petita"> 
+<p >D</p>
+</div>
+<div id="f" class="circulo f rodona_petita"> 
+<p >F</p>
+</div>
+<div id="g" class="circulo g rodona_petita"> 
+<p >G</p>
+</div>
+<div id="h" class="circulo h rodona_petita"> 
+<p >H</p>
+</div>
+<div id="i" class="circulo i rodona_petita"> 
+<p >I</p>
+</div>
+<div id="j" class="circulo j rodona_petita"> 
+<p >J</p>
+</div>
+<div id="k" class="circulo k rodona_petita"> 
+<p >K</p>
+</div>
+<div id="l" class="circulo l rodona_petita"> 
+<p >L</p>
+</div>
+<div id="m" class="circulo m rodona_petita"> 
+<p >M</p>
+</div>
+<div id="n" class="circulo n rodona_petita"> 
+<p >N</p>
+</div>
+<div id="ñ" class="circulo ñ rodona_petita"> 
+<p >Ñ</p>
+</div>
+<div id="o" class="circulo o rodona_petita"> 
+<p >O</p>
+</div>
+<div id="p" class="circulo p rodona_petita"> 
+<p >P</p>
+</div>
+<div id="q" class="circulo q rodona_petita"> 
+<p >Q</p>
+</div>
+<div id="r" class="circulo r rodona_petita"> 
+<p >R</p>
+</div>
+<div id="s" class="circulo s rodona_petita"> 
+<p >S</p>
+</div>
+<div id="t" class="circulo t rodona_petita"> 
+<p >T</p>
+</div>
+<div id="u" class="circulo u rodona_petita"> 
+<p >U</p>
+</div>
+<div id="v" class="circulo v rodona_petita"> 
+<p >V</p>
+</div>
+<div id="w" class="circulo w rodona_petita"> 
+<p >W</p>
+</div>
+<div id="x" class="circulo x rodona_petita"> 
+<p >X</p>
+</div>
+<div id="y" class="circulo y rodona_petita"> 
+<p >Y</p>
+</div>
+<div id="z" class="circulo z rodona_petita"> 
+<p >Z</p>
+</div>
+</div>
+<div id="clockdiv">
+  
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutos</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Segundos</div>
+  </div>
+  <div id="puntuacion">
+    <span id="points" class="points">0</span>
+    <div class="smalltext">Puntos</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<script src="pasapalabra.js"></script>
+<script src="countdown.js"></script>
+
+</body>
+</html>
